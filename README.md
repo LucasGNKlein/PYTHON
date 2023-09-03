@@ -29,3 +29,8 @@ Solicita ao usuário números até ele digitar "0" e conta quantos números são
 
 Teste 4.3:
 
+Começa com uma variável definida, essa variável é onde o contador vai começar o processo.
+- Se essa variável for mudada para outro número, esse número se torna o início da contagem.
+
+Teste 4.4:
+
