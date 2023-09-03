@@ -23,3 +23,9 @@ Solicita ao usuário um número, enquanto o usuário não digitar "-1" ele conti
 - Sempre que o número digitado for maior que a variável inicial ela vai ser atualizada para o número maior que ela.
 
 Teste 4.2:
+
+Solicita ao usuário números até ele digitar "0" e conta quantos números são ímpares e quantos são par.
+- O "0" não é contabilizado e foi usado como válvula de escape por ser um número neutro.
+
+Teste 4.3:
+
