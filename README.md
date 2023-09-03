@@ -37,3 +37,10 @@ Teste 4.4:
 Define um valor de range para a lista do laço de repetição e imprime a contagem de linhas com a mensagem do print
 
 Teste 4.4.1:
+
+Calculador de potência de números
+- O range define o número de potências.
+- O power é o início da contagem.
+- O operador "*=" é o que define a conta da potência.
+
+Teste 5:
