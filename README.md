@@ -14,3 +14,12 @@ Teste 3:
 
 Solicita ao usuário que escreva um ano e retorna se o ano é um "ano comum" ou "ano bissexto"
 - Utilizando elif em caso de resultado anterior False encurta um pouco o código, mas da pra fazer com if e else só.
+
+Teste 4.1:
+
+Solicita ao usuário um número, enquanto o usuário não digitar "-1" ele continua solicitando e depois calcula qual dos números digitados é maior
+- A variável inicial na verdade pode mudar por exemplo pra 1 que vai mudar conforme for adicioando números.
+- A opção de parar a solicitação com "-1" pode ser mudada para qualquer outra coisa também.
+- Sempre que o número digitado for maior que a variável inicial ela vai ser atualizada para o número maior que ela.
+
+Teste 4.2:
