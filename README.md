@@ -59,3 +59,8 @@ Código que descreve uma sequência de Fibonacci.
 - A sequência começa em 1 e todos os próximos números são a soma dos dois números anteriores.
 
 Teste 7:
+
+Aqui também é um compilado de conceitos básicos, mas de como usar a biblioteca numpy.
+
+Teste 8:
+
