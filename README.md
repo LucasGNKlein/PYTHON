@@ -43,4 +43,10 @@ Calculador de potência de números
 - O power é o início da contagem.
 - O operador "*=" é o que define a conta da potência.
 
+Teste 4.5:
+
+Dois exemplos de laços de repetições, um é uma contagem onde é usado "break" para que ela pare e o outro usamos "continue" para evitar o número
+- A principal diferença é que o break encerra a contagem no número três e o continue pula o número três e conta normalmente apos ele.
+
 Teste 5:
+
