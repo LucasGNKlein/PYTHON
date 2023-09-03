@@ -50,17 +50,19 @@ Dois exemplos de laços de repetições, um é uma contagem onde é usado "break
 
 Teste 5:
 
-Esse é um compilado de códigos testando conceitos básicos de Python.
+Esse é um compilado de códigos testando conceitos básicos de Python
 
 Teste 6:
 
-Código que descreve uma sequência de Fibonacci.
+Código que descreve uma sequência de Fibonacci
 - Solicita um número ao usuário, esse número vai ser o tamanho da sequência.
 - A sequência começa em 1 e todos os próximos números são a soma dos dois números anteriores.
 
 Teste 7:
 
-Aqui também é um compilado de conceitos básicos, mas de como usar a biblioteca numpy.
+Aqui também é um compilado de conceitos básicos, mas de como usar a biblioteca numpy
 
 Teste 8:
 
+Recebe uma lista de nomes e verifica se o nome definido na variável inicial está na lista ou não
+- Esse código só vai funcionar se importar a lista de nomes, no caso foi usado o colaboratory do google para produzi-la.
