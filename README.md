@@ -24,13 +24,16 @@ Solicita ao usuário um número, enquanto o usuário não digitar "-1" ele conti
 
 Teste 4.2:
 
-Solicita ao usuário números até ele digitar "0" e conta quantos números são ímpares e quantos são par.
+Solicita ao usuário números até ele digitar "0" e conta quantos números são ímpares e quantos são par
 - O "0" não é contabilizado e foi usado como válvula de escape por ser um número neutro.
 
 Teste 4.3:
 
-Começa com uma variável definida, essa variável é onde o contador vai começar o processo.
+Começa com uma variável definida, essa variável é onde o contador vai começar o processo
 - Se essa variável for mudada para outro número, esse número se torna o início da contagem.
 
 Teste 4.4:
 
+Define um valor de range para a lista do laço de repetição e imprime a contagem de linhas com a mensagem do print
+
+Teste 4.4.1:
