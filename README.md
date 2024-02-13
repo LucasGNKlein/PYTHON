@@ -68,4 +68,5 @@ Recebe uma lista de nomes e verifica se o nome definido na variável inicial est
 - Esse código só vai funcionar se importar a lista de nomes, no caso foi usado o colaboratory do google para produzi-la.
 
 Teste "Desconto":
+
 Código que solicita ao usuário um valor (converte esse valor para float) e calcula o desconto baseado numa porcentagem pré-definida (que pode ser mudada no código), mostrando na tela o valor digitado (valor o produto sem desconto) e o resultado do cálculo (valor do produto com desconto).
