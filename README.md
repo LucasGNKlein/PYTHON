@@ -21,6 +21,9 @@ Teste 3:
 Solicita ao usuário que escreva um ano e retorna se o ano é um "ano comum" ou "ano bissexto"
 - Utilizando elif em caso de resultado anterior False encurta um pouco o código, mas da pra fazer com if e else só.
 
+![image](https://github.com/LucasGNKlein/PYTHON/assets/86809331/9ad96d1a-08ee-4900-835c-29da0b7ef3d8)
+
+
 Teste 4.1:
 
 Solicita ao usuário um número, enquanto o usuário não digitar "-1" ele continua solicitando e depois calcula qual dos números digitados é maior
@@ -28,10 +31,14 @@ Solicita ao usuário um número, enquanto o usuário não digitar "-1" ele conti
 - A opção de parar a solicitação com "-1" pode ser mudada para qualquer outra coisa também.
 - Sempre que o número digitado for maior que a variável inicial ela vai ser atualizada para o número maior que ela.
 
+![image](https://github.com/LucasGNKlein/PYTHON/assets/86809331/143362b0-c72c-45b1-863e-070f47323bf5)
+
 Teste 4.2:
 
 Solicita ao usuário números até ele digitar "0" e conta quantos números são ímpares e quantos são par
 - O "0" não é contabilizado e foi usado como válvula de escape por ser um número neutro.
+
+![image](https://github.com/LucasGNKlein/PYTHON/assets/86809331/7c8b326e-ff03-4018-8852-5cf3163ef040)
 
 Teste 4.3:
 
