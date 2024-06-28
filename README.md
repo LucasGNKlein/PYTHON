@@ -13,6 +13,8 @@ Teste 2:
 
 Solicita ao usuário 3 valores númericos e verifica qual dos três é o maior (retornando o número e a mensagem do print)
 
+![image](https://github.com/LucasGNKlein/PYTHON/assets/86809331/58a6fe0a-3035-4301-ae0e-090822361b47)
+
 Teste 3:
 
 Solicita ao usuário que escreva um ano e retorna se o ano é um "ano comum" ou "ano bissexto"
