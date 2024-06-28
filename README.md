@@ -5,6 +5,8 @@ Teste 1:
 
 Solicita um número ao usuário e verifica se esse número é maior que cem (retorna True) ou não (retorna False)
 - Se trocar o sinal ">" para "<" funciona ao contrário.
+  ![image](https://github.com/LucasGNKlein/PYTHON/assets/86809331/f324478f-7c90-4e87-b38c-10ae7d9b2f4c)
+
 
 Teste 2:
 
