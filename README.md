@@ -49,21 +49,27 @@ Teste 4.4:
 
 Define um valor de range para a lista do laço de repetição e imprime a contagem de linhas com a mensagem do print
 
+![image](https://github.com/LucasGNKlein/PYTHON/assets/86809331/96c851aa-2b49-43dc-bd33-fabc462d18f4)
+
 Teste 4.4.1:
 
-Calculador de potência de números
+Calculador de potência de números, ao trocar o power a potência fica nesse número trocado.
 - O range define o número de potências.
 - O power é o início da contagem.
 - O operador "*=" é o que define a conta da potência.
 
+![image](https://github.com/LucasGNKlein/PYTHON/assets/86809331/d0b896e9-4d30-4cfd-a0aa-e1928edbc1f8)
+
 Teste 4.5:
 
-Dois exemplos de laços de repetições, um é uma contagem onde é usado "break" para que ela pare e o outro usamos "continue" para evitar o número
-- A principal diferença é que o break encerra a contagem no número três e o continue pula o número três e conta normalmente apos ele.
+Dois exemplos de laços de repetições, um é uma contagem onde é usado "break" para que ela pare em determinado valor e o outro usamos "continue" para evitar o número
+- A principal diferença é que o break encerra a contagem no número três e o continue pula o número três e conta normalmente após ele.
+
+![image](https://github.com/LucasGNKlein/PYTHON/assets/86809331/37593e7f-7a6b-433f-ade5-62d553412c99)
 
 Teste 5:
 
-Esse é um compilado de códigos testando conceitos básicos de Python
+Esse é um compilado de códigos testando conceitos básicos de Python, são apenas exemplos, tanto que eles na mesma página geram erros.
 
 Teste 6:
 
@@ -71,9 +77,14 @@ Código que descreve uma sequência de Fibonacci
 - Solicita um número ao usuário, esse número vai ser o tamanho da sequência.
 - A sequência começa em 1 e todos os próximos números são a soma dos dois números anteriores.
 
+![image](https://github.com/LucasGNKlein/PYTHON/assets/86809331/209b0639-85ff-4075-9748-a6a042255702)
+
 Teste 7:
 
 Aqui também é um compilado de conceitos básicos, mas de como usar a biblioteca numpy
+
+![image](https://github.com/LucasGNKlein/PYTHON/assets/86809331/f089fdd7-b52f-41bc-8bd0-6d320cfa15d4)
+![image](https://github.com/LucasGNKlein/PYTHON/assets/86809331/e8899137-403b-44a8-9baa-092cda310c57)
 
 Teste 8:
 
