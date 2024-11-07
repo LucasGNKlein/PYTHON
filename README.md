@@ -98,3 +98,7 @@ Código que solicita ao usuário um valor (converte esse valor para float) e cal
 Teste "Dumb":
 
 Código que apresenta dois botões em uma tela quadrada de terminal (sim e não) e permite que o usuário clique neles. Porém o usuário não consegue clicar em "Não" e ao clicar em "Sim" aparece um pop up com uma mensagem para o usuário.
+
+Teste "media":
+
+Recebe dois valores numéricos, calcula e mostra a média entre eles.
