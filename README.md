@@ -102,5 +102,6 @@ Código que apresenta dois botões em uma tela quadrada de terminal (sim e não)
 Teste "media":
 
 Recebe dois valores numéricos, calcula e mostra a média entre eles.
+
 ![image](https://github.com/user-attachments/assets/7b832ac6-be03-4e60-82c6-81d45a5f0700)
 
