@@ -91,15 +91,15 @@ Teste 8:
 Recebe uma lista de nomes e verifica se o nome definido na variável inicial está na lista ou não
 - Esse código só vai funcionar se importar a lista de nomes, no caso foi usado o colaboratory do google para produzi-la.
 
-Teste "Desconto":
+"Desconto":
 
 Código que solicita ao usuário um valor (converte esse valor para float) e calcula o desconto baseado numa porcentagem pré-definida (que pode ser mudada no código), mostrando na tela o valor digitado (valor o produto sem desconto) e o resultado do cálculo (valor do produto com desconto).
 
-Teste "Dumb":
+"Dumb":
 
 Código que apresenta dois botões em uma tela quadrada de terminal (sim e não) e permite que o usuário clique neles. Porém o usuário não consegue clicar em "Não" e ao clicar em "Sim" aparece um pop up com uma mensagem para o usuário.
 
-Teste "media":
+"media":
 
 Recebe dois valores numéricos, calcula e mostra a média entre eles.
 
