@@ -105,3 +105,6 @@ Recebe dois valores numéricos, calcula e mostra a média entre eles.
 
 ![image](https://github.com/user-attachments/assets/7b832ac6-be03-4e60-82c6-81d45a5f0700)
 
+"banco"
+
+Uma aplicação bancária simples totalmente em python representando uma conta, que possui as operações básicas de um sistema de bancos e retorna os valores conforme o usuário solicita.
