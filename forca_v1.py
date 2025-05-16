@@ -54,7 +54,7 @@ def jogar_jogo_da_forca(): #inicia o jogo, as listas e define o número máximo 
         if genero_escolhido in palavras_por_genero:
             break
         else:
-            print("❌ Gênero inválido. Por favor, escolha um dos disponíveis.")
+            print("❌ Gênero inválido. Por favor, escolha um dos gêneros disponíveis.")
     palavras_por_genero.update({
         "animais": ["gato","elefante","rato","corvo","gralha","formiga","porco","galinha","peixe","tubarão"],
         "frutas": ["uva","laranja","ameixa","caqui","tomate","morango","banana","caju","framboesa","melão","melancia"],
