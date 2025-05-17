@@ -5,9 +5,10 @@ def escolher_palavra(genero): #função que define uma lista de palavras e escol
         "animais": ["gato","elefante","rato","corvo","gralha","formiga","porco","galinha","peixe","tubarão"],
         "frutas": ["uva","laranja","ameixa","caqui","tomate","morango","banana","caju","framboesa","melão","melancia"],
         "tecnologia": ["python","computador","algoritmo","inteligencia","programacao","chamado","codar","suporte","software","hardware"],
-        "países": ["brasil", "canada", "japao", "alemanha", "argentina", "egito", "franca"],
-        "cores": ["vermelho", "azul", "amarelo", "verde", "roxo", "preto", "branco"],
-        "esportes": ["futebol", "basquete", "tenis", "volei", "natacao", "ciclismo", "boxe"]
+        "países": ["brasil","canada","japao","alemanha","argentina","egito","franca"],
+        "cores": ["vermelho","azul","amarelo","verde","roxo","preto","branco"],
+        "esportes": ["futebol","basquete","tenis","volei","natacao","ciclismo","boxe"],
+        "filmes/séries": ["supernatural","harry potter","indiana jones","star wars","vingadores"]
     }
 
     if genero not in palavras_por_genero:
