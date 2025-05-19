@@ -27,7 +27,6 @@ def mostrar_palavra(palavra, letras_corretas): #função que recebe a palavra se
     return resultado
 
 def jogar_jogo_da_forca(): #inicia o jogo, as listas e define o número máximo de tentativas
-    palavra = escolher_palavra()
     letras_corretas = []
     tentativas = 6
     letras_erradas = []
