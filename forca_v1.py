@@ -1,23 +1,23 @@
 import random
 
-def escolher_palavra(genero): #função que define uma lista de palavras e escolhe um palavra aleatória dessa lista
+def escolher_palavra(genero):  # Define uma palavra aleatória com base no gênero
     palavras_por_genero = {
-        "animais": ["gato","elefante","rato","corvo","gralha","formiga","porco","galinha","peixe","tubarão"],
-        "frutas": ["uva","laranja","ameixa","caqui","tomate","morango","banana","caju","framboesa","melão","melancia"],
-        "tecnologia": ["python","computador","algoritmo","inteligencia","programacao","chamado","codar","suporte","software","hardware"],
-        "países": ["brasil","canada","japao","alemanha","argentina","egito","franca"],
-        "cores": ["vermelho","azul","amarelo","verde","roxo","preto","branco"],
-        "esportes": ["futebol","basquete","tenis","volei","natacao","ciclismo","boxe"],
-        "filmes/séries": ["supernatural","harry potter","indiana jones","star wars","vingadores"]
+        "animais": ["gato", "elefante", "rato", "corvo", "gralha", "formiga", "porco", "galinha", "peixe", "tubarão"],
+        "frutas": ["uva", "laranja", "ameixa", "caqui", "tomate", "morango", "banana", "caju", "framboesa", "melão", "melancia"],
+        "tecnologia": ["python", "computador", "algoritmo", "inteligencia", "programacao", "chamado", "codar", "suporte", "software", "hardware"],
+        "países": ["brasil", "canada", "japao", "alemanha", "argentina", "egito", "franca"],
+        "cores": ["vermelho", "azul", "amarelo", "verde", "roxo", "preto", "branco"],
+        "esportes": ["futebol", "basquete", "tenis", "volei", "natacao", "ciclismo", "boxe"],
+        "filmes/séries": ["supernatural", "harry potter", "indiana jones", "star wars", "vingadores"]
     }
 
     if genero not in palavras_por_genero:
         print("Gênero inválido. Usando 'tecnologia' por padrão.")
         genero = "tecnologia"
-    
+
     return random.choice(palavras_por_genero[genero])
 
-def mostrar_palavra(palavra, letras_corretas): #função que recebe a palavra secreta e uma lisa de letras que o jogador á acertou além de montar uma string com as letras reveladas e as que ainda não foram
+def mostrar_palavra(palavra, letras_corretas):  # Mostra a palavra com letras acertadas e underscores
     resultado = ""
     for letra in palavra:
         if letra in letras_corretas:
@@ -26,28 +26,29 @@ def mostrar_palavra(palavra, letras_corretas): #função que recebe a palavra se
             resultado += "_ "
     return resultado
 
-def jogar_jogo_da_forca(): #inicia o jogo, as listas e define o número máximo de tentativas
+def jogar_jogo_da_forca():
     letras_corretas = []
     tentativas = 6
     letras_erradas = []
 
-    print("Bem-vindo ao Jogo da Forca!") #mensagem inicial
+    print("Bem-vindo ao Jogo da Forca!")
 
+    # Gêneros disponíveis
     palavras_por_genero = {
         "animais": [],
         "frutas": [],
         "tecnologia": [],
         "países": [],
         "cores": [],
-        "esportes": []
+        "esportes": [],
+        "filmes/séries": []
     }
 
-    # Mostrar categorias disponíveis
     print("\nCategorias disponíveis:")
     for genero in palavras_por_genero:
         print(f"- {genero.capitalize()}")
 
-    # Garantir escolha válida do usuário
+    # Escolha do gênero
     genero_escolhido = ""
     while True:
         genero_escolhido = input("\nDigite o gênero desejado: ").lower()
@@ -55,46 +56,49 @@ def jogar_jogo_da_forca(): #inicia o jogo, as listas e define o número máximo 
             break
         else:
             print("❌ Gênero inválido. Por favor, escolha um dos gêneros disponíveis.")
-    palavras_por_genero.update({
-        "animais": ["gato","elefante","rato","corvo","gralha","formiga","porco","galinha","peixe","tubarão"],
-        "frutas": ["uva","laranja","ameixa","caqui","tomate","morango","banana","caju","framboesa","melão","melancia"],
-        "tecnologia": ["python","computador","algoritmo","inteligencia","programacao","chamado","codar","suporte","software","hardware"],
-        "países": ["brasil", "canada", "japao", "alemanha", "argentina", "egito", "franca"],
-        "cores": ["vermelho", "azul", "amarelo", "verde", "roxo", "preto", "branco"],
-        "esportes": ["futebol", "basquete", "tenis", "volei", "natacao", "ciclismo", "boxe"]
-    })
 
     palavra = escolher_palavra(genero_escolhido)
-    letras_corretas = []
-    letras_erradas = []
-    tentativas = 6
 
-    while tentativas > 0: #loop que o ogador fica enquanto ainda tem vidas
-        print("\nPalavra:", mostrar_palavra(palavra, letras_corretas)) #mostra a palavra parcialmente revelada
-        print("Tentativas Restantes:", tentativas) #mostra a quantidade de tentativas restantes
-        print("Letras Erradas:", letras_erradas) #mostra a lista de letras erradas
+    while tentativas > 0:
+        print("\nPalavra:", mostrar_palavra(palavra, letras_corretas))
+        print("Tentativas Restantes:", tentativas)
+        print("Letras Erradas:", letras_erradas)
 
-        palpite = input("Digite uma letra: ").lower() #lê a letra e converte para minúscula
+        palpite = input("Digite uma letra ou tente adivinhar a palavra: ").lower()
 
-        if len(palpite) != 1 or not palpite.isalpha(): #garante que o ogador digitou apenas letras
-            print("Por favor, digite apenas uma letra válida.")
+        # Palpite de palavra inteira
+        if len(palpite) > 1:
+            if palpite == palavra:
+                print("\n🎉 Parabéns! Você acertou a palavra inteira!")
+                print("A palavra era:", palavra)
+                break
+            else:
+                tentativas -= 1
+                print("❌ Palavra incorreta! Você perdeu uma tentativa.")
+                continue
+
+        # Verificação de letra válida
+        if not palpite.isalpha() or len(palpite) != 1:
+            print("Por favor, digite apenas uma letra válida ou uma palavra.")
             continue
 
-        if palpite in letras_corretas or palpite in letras_erradas: #garante que o jogador não repita letras
+        if palpite in letras_corretas or palpite in letras_erradas:
             print("Você já tentou esta letra. Tente novamente.")
             continue
 
-        if palpite in palavra: #se o palpite estiver na palavra, ele é adicionado à lista de letras corretas.
+        # Letra correta
+        if palpite in palavra:
             letras_corretas.append(palpite)
-            if len(set(letras_corretas)) == len(set(palavra)): #se o número de letras únicas acertadas for igual ao número de letras únicas na palavra, o jogador ganha.
-                print("\nParabéns! Você venceu!")
+            if len(set(letras_corretas)) == len(set(palavra.replace(" ", ""))):  # Palavras compostas
+                print("\n🎉 Parabéns! Você venceu!")
                 print("A palavra era:", palavra)
                 break
         else:
-            letras_erradas.append(palpite) #se errou, adiciona a letra à lista de erradas e diminui uma tentativa.
+            letras_erradas.append(palpite)
             tentativas -= 1
-    else:
-        print("\nVocê perdeu! A palavra era:", palavra) #se o loop acabar (tentativas = 0), o jogador perde e a palavra correta é revelada.
 
-# Executar o jogo
+    else:
+        print("\n💀 Você perdeu! A palavra era:", palavra)
+
+# Iniciar o jogo
 jogar_jogo_da_forca()
