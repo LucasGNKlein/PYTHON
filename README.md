@@ -114,3 +114,7 @@ Uma aplicação bancária simples totalmente em python representando uma conta, 
 Código de um jogo inspirado no pedra-papel-tesoura-lagarto-spock, utilizando 5 técnicas de IA em sua base para aprofundar conhecimentos sobre IA e Python.
 
 <img width="618" height="263" alt="image" src="https://github.com/user-attachments/assets/eaf8623d-a799-437a-bb2a-f776895845ec" />
+
+O jogo funciona no terminal, conta com escolha de dificuldade e com resumo a cada 5 rodadas, projeto potencialmente escalavel.
+
+<img width="869" height="773" alt="image" src="https://github.com/user-attachments/assets/fdb49fc1-c510-440d-aeec-e034cd867fbb" />
