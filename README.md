@@ -108,3 +108,9 @@ Recebe dois valores numéricos, calcula e mostra a média entre eles.
 "banco"
 
 Uma aplicação bancária simples totalmente em python representando uma conta, que possui as operações básicas de um sistema de bancos e retorna os valores conforme o usuário solicita.
+
+"PRSLS"
+
+Código de um jogo inspirado no pedra-papel-tesoura-lagarto-spock, utilizando 5 técnicas de IA em sua base para aprofundar conhecimentos sobre IA e Python.
+
+<img width="618" height="263" alt="image" src="https://github.com/user-attachments/assets/eaf8623d-a799-437a-bb2a-f776895845ec" />
